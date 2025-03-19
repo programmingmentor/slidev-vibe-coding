@@ -1,6 +1,4 @@
 
-
-
 ---
 layout: image-left
 image: /software-engineer-1-0.jpg

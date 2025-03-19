@@ -10,10 +10,12 @@ image: /prince-of-persia.webp
 # Start of Selection
 
 ---
+
 layout: image-left-bg-color
 image: /troll-face.png
 bgColor: white
 backgroundSize: contain
+
 ---
 
 <div class="h-full flex items-center">
@@ -21,25 +23,55 @@ backgroundSize: contain
 </div>
 
 ---
+
 layout: image
 image: /meme-error-line-42.jpg
 backgroundSize: contain
----
 
 ---
+
+
+---
+
 layout: image
 image: /meme-different-error.jpg
 backgroundSize: contain
----
 
 ---
+
+
+---
+
 layout: image
 image: /meme-dot1-dot2.png
 backgroundSize: 80%
----
 
 ---
-layout: center
+
+
 ---
+
+## layout: center
 
 # Чи взагалі це можливо "1000x Developer"?
+
+---
+
+# Формула 1000x Developer
+
+#### 1000x Developer == Software Engineering Skills \* AI Codegen Skills
+
+<br>
+
+#### Bad Developer: 0 \* 1000 == 0
+
+<br>
+
+#### Also Bad Developer: 1000 \* 0 == 0
+
+<br>
+
+#### Good Developer: 1000 \* 1 == 1 \* 1000 == 32 \* 32
+
+---
+

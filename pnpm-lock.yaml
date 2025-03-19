@@ -14,6 +14,14 @@ dependencies:
     specifier: ^3.5.13
     version: 3.5.13(typescript@5.8.2)
 
+devDependencies:
+  prettier:
+    specifier: ^3.5.3
+    version: 3.5.3
+  prettier-plugin-slidev:
+    specifier: ^1.0.5
+    version: 1.0.5(prettier@3.5.3)
+
 packages:
 
   /@ampproject/remapping@2.3.0:
@@ -1180,6 +1188,14 @@ packages:
       - vue-template-es2015-compiler
     dev: false
 
+  /@slidev/parser@0.47.5:
+    resolution: {integrity: sha512-KvqOEhIFuMDu8CjAsehMNKlAnnmAn2TRHiEymc3CMadid05oWa5zgTxqEyMxUl2rjWpYs3A1yDiendZsGYs3HA==}
+    engines: {node: '>=18.0.0'}
+    dependencies:
+      '@slidev/types': 0.47.5
+      js-yaml: 4.1.0
+    dev: true
+
   /@slidev/parser@51.4.0(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2):
     resolution: {integrity: sha512-RLogXp6fxZpgc1KGkAnKobC/ygTwrg+qzjIQNpvD3ILivnn4FsA1AklASwWmb9TRDtD59pUlxF6PRPkiAplpzg==}
     engines: {node: '>=18.0.0'}
@@ -1230,7 +1246,6 @@ packages:
   /@slidev/types@0.47.5:
     resolution: {integrity: sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==}
     engines: {node: '>=18.0.0'}
-    dev: false
 
   /@slidev/types@51.4.0(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2):
     resolution: {integrity: sha512-cG8eXrh+6QiY78wBctrgTPpQgXsPfl3bc18pUttUVDMM+H1VXRZK8tulKERDxx9vHAMam/baZ6fmk8vO86DGeg==}
@@ -2063,7 +2078,6 @@ packages:
 
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-    dev: false
 
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -3371,7 +3385,6 @@ packages:
     hasBin: true
     dependencies:
       argparse: 2.0.1
-    dev: false
 
   /jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
@@ -4221,11 +4234,19 @@ packages:
       jszip: 3.10.1
     dev: false
 
+  /prettier-plugin-slidev@1.0.5(prettier@3.5.3):
+    resolution: {integrity: sha512-1xaKzOAX17QAcn1roUgQIAfeio3HPYYefCgzxh6Bzk+5rJJxq0I8HUhLrUyv9nCpIP6e9CDv/yDQSdEeqqRUuA==}
+    peerDependencies:
+      prettier: ^3.2.4
+    dependencies:
+      '@slidev/parser': 0.47.5
+      prettier: 3.5.3
+    dev: true
+
   /prettier@3.5.3:
     resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
 
   /prism-theme-vars@0.2.5:
     resolution: {integrity: sha512-/D8gBTScYzi9afwE6v3TC1U/1YFZ6k+ly17mtVRdLpGy7E79YjJJWkXFgUDHJ2gDksV/ZnXF7ydJ4TvoDm2z/Q==}
