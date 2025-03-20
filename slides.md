@@ -32,15 +32,10 @@ overviewSnapshots: true
   </span>
 </div>
 
-<div class="m-6 flex gap-2 fixed bottom-0 right-0 flex-col items-end">
+<div class="m-6 flex gap-2 fixed bottom-0 left-0">
   <a href="https://www.youtube.com/c/programmingmentorua">
     <div class="h-8 w-8">
       <img src="/pm-logo.jpg" class="h-full w-full rounded-full"/>
-    </div>
-  </a>
-  <a href="https://career.softserveinc.com/uk-ua/softserve-academy">
-    <div class="h-12 w-24">
-      <img src="/ssa-logo-white.svg" class="h-full w-full"/>
     </div>
   </a>
 </div>
@@ -613,4 +608,8 @@ https://orm.drizzle.team/llms.txt
 
 <div class="flex justify-center w-full h-30 items-center">
   <img src="/slides-qr.png" class="w-25 h-25"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://programmingmentor.github.io/slidev-vibe-coding/">https://programmingmentor.github.io/slidev-vibe-coding/</a>
 </div>
