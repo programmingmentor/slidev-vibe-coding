@@ -76,6 +76,69 @@ image: /vyacheslav-koldovskyy.png
 - Лінкедін: [koldovsky](https://www.linkedin.com/in/koldovsky/)
 
 ---
+layout: image-left
+image: /software-engineer-1-0.jpg
+---
+
+# Software Engineer 1.0
+
+- Knowledge: books, articles, paper documentation
+- Communication via email, phone
+- Primitive developer tools, version control systems
+- SDLC: Waterfall, V-model
+  <br>
+  <br>
+  <v-click>What was the development speed?</v-click>
+  <br>
+  <v-click>Were they less qualified specialists than today?</v-click>
+
+---
+layout: image-left
+image: /software-engineer-2-0.webp
+---
+
+# Software Engineer 2.0
+
+- Knowledge: Internet, online courses, Google, StackOverflow
+- Communication via Slack, Teams, Discord, Zoom, Google Meet, Telegram
+- Advanced developer tools, version control systems with CI/CD
+- SDLC: Agile, DevOps
+  <br>
+  <br>
+  <v-click>What is the development speed?</v-click>
+  <br>
+  <v-click>How much more qualified compared to 1.0?</v-click>
+
+<!--
+Nasa Programmer Margret Hamilton standing next to the code that brought man to the moon.
+-->
+
+---
+
+# Software Engineer 3.0
+
+<div class="absolute inset-0 flex justify-center items-center">
+  <div class="text-9xl font-bold">?</div>
+</div>
+
+---
+layout: image
+image: /timeline-of-tech-longterm.png
+backgroundSize: contain
+title: Timeline of Tech
+---
+
+---
+layout: center
+---
+
+#### It's not that everything is developing quickly now, it's that everything used to happen slowly
+
+<div class="flex justify-center">
+  <Tweet class="w-1/2" id="1848558163756519607" />
+</div>
+
+---
 
 # Vibe Coding
 
@@ -353,62 +416,200 @@ https://openai.com/api/pricing/
 </div>
 
 ---
-# TDD
+
+# repl.it agent
+
+<div class="w-full flex justify-center">
+  <img src="/replit.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://repl.it/">https://repl.it/</a>
+</div>
+
 ---
 
-Prompt:
-create ...
-write tests first, then the code, then update code until tests pass
+# Github Copilot
+
+<div class="w-full flex justify-center">
+  <img src="/github-copilot.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://copilot.github.com/">https://copilot.github.com/</a>
+</div>
+
+---
+
+# Cursor
+
+<div class="w-full flex justify-center">
+  <img src="/cursor.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://www.cursor.com/">https://www.cursor.com/</a>
+</div>
+
+---
+
+# Windsurf
+
+<div class="w-full flex justify-center">
+  <img src="/windsurf.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://codeium.com/windsurf">https://codeium.com/windsurf</a>
+</div>
+
+---
+
+# Cline
+
+<div class="w-full flex justify-center">
+  <img src="/cline.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://cline.bot/">https://cline.bot/</a>
+</div>
+
+---
+
+# MCP - Model Context Protocol
+
+<div class="w-full flex justify-center">
+  <img src="/mcp.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://modelcontextprotocol.io/">https://modelcontextprotocol.io/</a>
+</div>
+
+---
+
+# MCP.so
+
+<div class="w-full flex justify-center">
+  <img src="/mcp-list.png" class="w-1/2"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://mcp.so/">https://mcp.so/</a>
+</div>
+
+---
+
+<div class="w-full h-full flex justify-center items-center">
+  <h1 class="text-center">Tips, Tricks and Resources</h1>
+</div>
+
+---
+
+# Cursor Rules
+
+<div class="w-full flex justify-center">
+  <img src="/cursor-rules.png" class="w-2/3"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://docs.cursor.com/context/rules-for-ai">https://docs.cursor.com/context/rules-for-ai</a>
+</div>
+
+---
+
+# Cursor.directory
+
+<div class="w-full flex justify-center">
+  <img src="/cursor-directory.png" class="w-4/5"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://cursor.directory/">https://cursor.directory/</a>
+</div>
+
+---
 
 # llms.txt
 
-<iframe src="https://twitframe.com/show?url=https://x.com/DrizzleORM/status/1896981123559002158" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="w-full flex justify-center">
+  <img src="/llms-txt.png" class="w-1/2"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://llmstxt.org/">https://llmstxt.org/</a>
+</div>
+
+---
+
+# Drizzle ORM llms.txt
+
+<Tweet scale="0.65" id="1896981123559002158" class="w-3/4"/>
 
 https://orm.drizzle.team/llms.txt
 
 ---
 
-layout: image
-image: /chat-gpt-developer.png
-backgroundSize: contain
+# Plan Mode
+
+<div class="w-full flex justify-center">
+  <img src="/cursor-plan-mode.png" class="w-1/2"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://forum.cursor.com/t/plan-vs-act-mode-xml-prompt/50996">https://forum.cursor.com/t/plan-vs-act-mode-xml-prompt/50996</a>
+</div>
 
 ---
 
+# Docs
+
+<div class="w-full flex justify-center">
+  <img src="/cursor-docs.png" class="w-3/4"/>
+</div>
+
+<div class="w-full flex justify-center">
+  <a href="https://docs.cursor.com/context/@-symbols/@-docs">https://docs.cursor.com/context/@-symbols/@-docs</a>
+</div>
 
 ---
 
-layout: image
-image: /ai-adoption-0-100-detailed.png
-backgroundSize: contain
+# TDD
+
+# Prompt:
+
+## create ...
+
+## write tests first, then the code, then update code until tests pass
 
 ---
 
-# То де ми зараз?
+# Local History Plugin
 
-<style>
-h1 {
-  color: black;
-}
-.slidev-layout {
-  background-color: white;
-}
-</style>
-
-<v-click>
-  <div
-      v-motion
-      :initial="{ y: 260, x: -450, opacity: 1 }"
-      :enter="{ y: 0, x: 0, opacity: 1, transition: { delay: 0, duration: 30000 } }"
-      class="absolute top-[110px] left-3/5 transform -translate-x-1/2">
-    <div class="text-6xl text-red-500">↓</div>
-  </div>
-</v-click>
+<div class="w-full flex justify-center">
+  <img src="/local-history.png" class="w-1/2"/>
+</div>
 
 ---
 
+# Issues
+
+- Breaking code changes
+- Hallucinations and incorrect solutions
+- Deadlocks
+- Limited knowledge of new libraries/frameworks
+- Issues with large codebases
+- Issues with security
+- Speed of development
+- Cost of usage
+- ...
+
+---
 ## layout: end
+---
 
-# Дякую за увагу!
+# Thank you!
 
 <div class="flex justify-center w-full h-30 items-center">
   <img src="/slides-qr.png" class="w-25 h-25"/>
