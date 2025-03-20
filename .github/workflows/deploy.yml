@@ -28,6 +28,9 @@ jobs:
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
 
+      - name: Check pnpm version
+        run: pnpm --version
+
       - name: Install dependencies
         run: nci
 
